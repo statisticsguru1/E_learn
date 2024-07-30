@@ -1,0 +1,421 @@
+/* my side panel format. */
+.mysidebarPanel {
+  background-color: white;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.mysidebarPanelboarder{
+  border-radius: 10px;
+  border-color: black
+}
+
+/* my side panel format. */
+
+.info {
+  background-color: #f0f7fb;
+  background-image: url(pencilNotes.png);
+  background-position: 9px 0px;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  border-left: solid 4px #327832;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 15px 60px;
+  text-align:justify;
+  color:black;
+  font-style: italic;
+}
+
+.info {
+  background-color: #f0f7fb;
+  background-image: url(pencilNotes.png);
+  background-position: 9px 0px;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  border-left: solid 4px #327832;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 15px 60px;
+  text-align:justify;
+  color:black;
+  font-style: italic;
+}
+
+.infoc {
+  text-align:justify;
+  color:white;
+  font-weight: bold;
+  background-color:orange;
+  background-image: url(error.png);
+  background-position: left center;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  padding:7px 30px;
+  border-radius:5px
+}
+
+
+
+ /*explanation section*/
+ 
+details {
+  padding:0px 12px;
+  background-position: 0px 5px;
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+}
+
+summary {
+  font-weight: bold;
+  color:orange;
+}
+
+details[open] {
+  padding:0px 12px;
+  background-position: 0px 5px;
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
+
+.explanation_green{
+  background-color: #f0f7fb;
+  background-repeat: no-repeat;
+  border-left: solid 4px #327832;
+  line-height: 18px;
+  overflow: auto;
+  padding: 15px 5px;
+  text-align:justify;
+  color:black;
+  font-size: 0.9em;
+}
+
+
+
+.explanation_lavender{
+  background-color: #DDD8E7;
+  background-repeat: no-repeat;
+  border-left: solid 4px #734F96;
+  line-height: 18px;
+  overflow: auto;
+  padding: 15px 5px;
+  text-align:justify;
+  color:black;
+  font-size: 1.2em;
+}
+
+.explanation_orange{
+  background-color: #ffeeda;
+  background-repeat: no-repeat;
+  border-left: solid 4px #FF8C00;
+  line-height: 18px;
+  overflow: auto;
+  padding: 15px 5px;
+  text-align:justify;
+  color:black;
+  font-size: 1.2em;
+}
+
+/* main title format*/
+.text1{
+  font-weight: bold;
+  color: orange;
+}
+
+
+/* other titles*/
+.green_title{
+  font-weight: bold;
+  color: green;
+}
+
+.black_title{
+  font-weight: bold;
+  color: black;
+}
+
+.black_title_italics{
+  font-weight: bold;
+  color: black;
+  font-style: italic;
+}
+
+.lav_title{
+  font-weight: bold;
+  color: lavender;
+}
+
+.lav_title_italics{
+  font-weight: bold;
+  color: lavender;
+  font-style: italic;
+}
+
+.orange_title_italics{
+  font-weight: bold;
+  color: orange;
+  font-style: italic;
+}
+
+/*underline text*/
+
+.underline_text{
+  text-decoration:underline;
+}
+
+/*font*/
+.myparagraphfont{
+  font-family: Lato, sans-serif;
+  line-height: 1.5em;
+}
+
+/*inner font*/ 
+.tabspace{
+  padding: 0px 60px;
+}
+
+/*outer font*/ 
+.tabspace1{
+  padding: 0px 43px;
+}
+
+/*outer font*/ 
+.tabspace2{
+padding: 0px 80px;
+}
+
+/* other code;*/
+
+.form-group input[type='number'], .form-group select {
+  height: 34px;
+  font-size: 14px;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+
+.black-lavenders-background {
+  text-align:justify;
+  color:black;
+  background-color:lavender;
+  padding:15px;
+  border-radius:5px
+}
+
+.black-orange-background {
+  text-align:justify;
+  color:black;
+  background-color:orange;
+  padding:15px;
+  border-radius:5px
+}
+
+.plotarea1{
+  text-align:justify;
+  color:black;
+  background-color:white;
+  padding:15px;
+  border-radius:5px
+}
+
+.custom-fluid-row {
+  border: 1px solid #ccc; /* Adding a border */
+  padding: 10px; /* Padding inside the border */
+  margin-bottom: 15px; /* Spacing between rows */
+  border-radius: 10px;
+  border-color: black;
+  padding-bottom: 50px;
+}
+
+.row-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white; /* Text color */
+  background-color: orange; /* Background color */
+  border-radius: 10px;
+  border-color: black;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+
+
+
+
+/*Tables*/
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: times;
+    min-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: orange;
+    color: #ffffff;
+    text-align: center; /* Change from right to center for header alignment */
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align: center; /* Ensure both headers and cells are center-aligned */
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid lavender;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid orange; /* Changed to orange to match header */
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: orange;
+}
+
+.styled-table td:contains('TRUE')::before {
+  content: '\2713'; /* Unicode character for a checkmark */
+  color: green; /* Color of the tick */
+  margin-right: 5px; /* Adjust as needed */
+}
+
+
+/* Box styling */
+.box {
+  border: 1px solid #000; /* Black border */
+  background-color: #fff; /* White background */
+  padding: 10px;
+  margin: 10px;
+  height: 250px;
+  position: relative;
+  text-align: center;
+}
+.box-title-container {
+  background-color: #FFA500; /* Orange background */
+  color: #fff; /* White text */
+  padding: 5px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  border-radius: 5px;
+}
+.box-title {
+  font-weight: bold;
+  margin: 0;
+}
+.box-content {
+  text-align: left;
+  margin-top: 30px; /* Adjusted for title position */
+  color: black; /* Lavender text */
+}
+.open-module-btn {
+  margin-top: 20px;
+  background-color: #4B0082; /* Lavender background */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.open-module-btn:hover {
+  background-color: #FFA500; /* Orange on hover */
+  color: #fff; /* White text */
+}
+
+/* Header and footer styling */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.header h1 {
+  color: #FFA500; /* Orange text */
+}
+.header h2 {
+  color: black; /* Lavender text */
+}
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+.footer a {
+  margin: 0 10px;
+  color: black; /* Lavender text */
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #FFA500; /* Orange on hover */
+}
+
+.bg-warning1 {
+    background-color: White !important; /* Bootstrap warning background color */
+    border-color: #ffc107 !important; /* Applying the same color to the border */
+}
+
+.page-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  background-color: white;  /* Light background color for the header */
+  border-bottom: 1px solid white;  /* Border at the bottom */
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;  /* Make sure the content spans the full width */
+}
+
+.header-title {
+  font-size: 18px;
+  font-weight: bold;
+  color:orange;
+}
+
+.back-link-container {
+  margin-left: auto;  /* Pushes the back link to the right */
+}
+
+.back-link {
+  font-size: 16px;
+  color: #007bff;  /* Blue color for the link */
+}
