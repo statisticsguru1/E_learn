@@ -13,9 +13,10 @@ This repository contains the source code for the public part of the application,
 1. Standard t-test
 2. One-sample t-test
 3. Paired sample t-test
-4. T confidence interval
-5. T-test for Pearson correlation
-6. T-test for regression coefficient
+4. Independent sample t-test
+5. T confidence interval
+6. T-test for Pearson correlation
+7. T-test for regression coefficient
 
 ### Z Calculators
 1. Z-test (Coming Soon)
